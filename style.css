@@ -5,15 +5,30 @@ header{
     border: solid 2px black;
 }
 
-nav{
-    
+nav li{
+    border: solid .5px black;
+    width: 200px;
+    align-content: right;
+    list-style-type: none;
+    background: red;
 }
 
 body{
     background-color: rgb(201, 179, 221);
 }
 
-.foodpics{
-    list-style: none;
+.foodpics ul{
     display: inline-block;
+    list-style: none;
+    width: 100px;
+    height: 100px;
+    padding: 50px;
+}
+
+footer{
+    background-color: blueviolet;
+}
+
+.copyright{
+    background-color: rgb(219, 6, 226);
 }
