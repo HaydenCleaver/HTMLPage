@@ -8,7 +8,6 @@ header{
 nav li{
     border: solid .5px black;
     width: 200px;
-    align-content: right;
     list-style-type: none;
     background: red;
 }
