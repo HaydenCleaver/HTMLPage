@@ -6,14 +6,21 @@ header{
 }
 
 nav li{
-    border: solid .5px black;
+    border: solid 1px black;
     width: 200px;
     list-style-type: none;
     background: red;
+    float: left;
 }
 
 body{
     background-color: rgb(201, 179, 221);
+}
+
+.foodlists{
+    border: solid 2px black;
+    margin: 1cm;
+    padding: 4px;
 }
 
 .foodpics ul{
@@ -24,8 +31,13 @@ body{
     padding: 50px;
 }
 
+.descriptions{
+    
+}
+
 footer{
     background-color: blueviolet;
+    border: solid 1px black;
 }
 
 .copyright{
