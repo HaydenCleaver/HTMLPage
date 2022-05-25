@@ -1,0 +1,19 @@
+header{
+    background-color: blueviolet;
+    margin: .5cm;
+    padding: 1cm;
+    border: solid 2px black;
+}
+
+nav{
+    
+}
+
+body{
+    background-color: rgb(201, 179, 221);
+}
+
+.foodpics{
+    list-style: none;
+    display: inline-block;
+}
