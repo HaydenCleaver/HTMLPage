@@ -25,4 +25,3 @@ if (userDrink == "Tea" || userDrink == "tea"){
 }
 
 document.write(" Well, here are some of my regular meals:");
-
