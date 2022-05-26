@@ -3,7 +3,14 @@ function colorAnswer(){
     let userColor = prompt("What's your favorite color?");
     console.log(userColor);
     
+    while (userColor == ""){
+        
+        userColor = prompt("Invalid color! Please try again.");
+    }
+
     document.body.style.backgroundColor = userColor;
+
+    let fix = confirm("Did the color of the background change?")
 };
 
 function foodAnswer() {
