@@ -9,7 +9,7 @@ nav li{
     border: solid 1px black;
     width: 200px;
     list-style-type: none;
-    background: red;
+    background: rgb(201, 179, 221);
     float: left;
 }
 
