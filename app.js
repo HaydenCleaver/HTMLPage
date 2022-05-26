@@ -1,10 +1,8 @@
 let userColor = prompt("What's your favorite color?");
     console.log(userColor);
-
-if (userColor !==""){
-    document.body.style.backgroundColor = userColor;
-    }
     
+document.body.style.backgroundColor = userColor;
+
 let userFood = prompt("What's your favorite food?");
 console.log(userFood);
 
