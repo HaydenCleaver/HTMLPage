@@ -13,7 +13,6 @@ function colorAnswer(){
 function foodAnswer() {
     
     let userFood = prompt("What's your favorite food?");
-    console.log(userFood);
 
     if (userFood == "rice" || userFood == "Rice"){
         document.write(" Rice is my favorite too! ");
@@ -50,12 +49,22 @@ function colorButton(){
 };
 
 function foodButton(){
+
     let userAnswer = prompt("What's my favorite food?");
 
-    if (userAnswer == "rice" || userAnswer == "Rice"){
+    if (userAnswer == "rice" || userAnswer == "Rice" || userAnswer == "RICE"){
         alert("You got it!");
     } else {
         alert("Nope! Try again.")
         foodButton();
+    }
+}
+
+function mealButton(){
+
+    let mealNumber = prompt("How many meals do you eat per day?");
+
+    for (let i = 1; i <= mealNumber; i++){
+        document.write("<img style='height:50px;width:50px;' src='rice.jpeg' />")
     }
 }
