@@ -1,16 +1,21 @@
 header{
     background-color: blueviolet;
-    margin: .5cm;
     padding: 1cm;
     border: solid 2px black;
 }
 
+h1{
+    text-align: center;
+}
+
 nav li{
     border: solid 1px black;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 15px;
     width: 200px;
     list-style-type: none;
     background: rgb(201, 179, 221);
-    float: left;
 }
 
 body{
@@ -18,18 +23,24 @@ body{
 }
 
 .foodlists{
+    text-align: left;
     border: solid 2px black;
-    margin: 1cm;
-    padding: 4px;
+    padding: 5px;
 }
 
 .foodpics ul{
+
     display: inline-block;
-    list-style: none;
+    list-style-type: none;
     width: 100px;
     height: 100px;
-    padding: 50px;
-    
+    padding: 80px;
+
+}
+
+.descriptions{
+    text-align: center;
+    width: 200px;
 }
 
 footer{
