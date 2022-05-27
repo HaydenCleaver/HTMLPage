@@ -10,20 +10,23 @@
 </head>
 <body>
     <header>
-        <script>colorAnswer();</script>
         <h1>Favorite Foods</h1>
-    <nav>
-        <ul>
-            <li><a href="#">Appetizers</a></li>
-            <li><a href="#">Desserts</a></li>
-            <li><a href="#">Savory Foods</a></li>
-        </ul>
-        <div><script>foodAnswer();</script></div>
-    </nav>
+        <nav>
+            <ul>
+                <li><a href="#">Appetizers</a></li>
+                <li><a href="#">Desserts</a></li>
+                <li><a href="#">Savory Foods</a></li>
+            </ul>
+            <div id="div1"><script>colorAnswer();</script></div>
+            <div id="div2"><script>foodAnswer();</script></div>
+        </nav>
     </header>
     <hr>
     <main>
-        <script>drinkAnswer();</script>
+        <div id="button1">
+            <button onclick = "colorButton();">Change color again?</button>
+        </div>
+        <div id="div3"><script>drinkAnswer();</script></div>
         <section class = "foodlists">
             <h3>Breakfast</h3>
             <ul>
@@ -43,6 +46,12 @@
                 <li>Curry and Rice</li>
                 <li>Rice and Rice</li>
             </ul>
+            <hr>
+            <section>
+                 How many meals do you eat per day?
+                <input id="meals">
+                <button onclick = "mealButton();">Click!</button>
+            </section>
         </section>
         <section class="foodpics">
             <ul>
@@ -58,6 +67,9 @@
                 <li class="descriptions">If the soggy texture of tofu puts you off, try pressing out the moisture, tossing it in a little cornstarch, and baking it to get it crispy.</li>
             </ul>
         </section>
+        <div id="favFood">
+            <button onclick ="foodButton();">What's my favorite food!?</button>
+        </div>
     </main>
     <footer>
         <h3>Similar Websites</h3>

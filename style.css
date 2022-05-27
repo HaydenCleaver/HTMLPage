@@ -2,21 +2,38 @@ header{
     background-color: blueviolet;
     padding: 1cm;
     border: solid 2px black;
+    text-align: center;
 }
 
 h1{
     text-align: center;
 }
 
+hr{
+    border: solid 5px black;
+    margin: 0px;
+}
 nav li{
     border: solid 1px black;
     display: inline-block;
     margin-top: 10px;
-    margin-left: 15px;
     width: 200px;
     list-style-type: none;
     background: rgb(201, 179, 221);
 }
+
+#div1{
+    background-color:rgb(201, 179, 221)
+}
+
+#div2{
+    background-color:rgb(201, 179, 221)
+}
+
+#div3{
+    background-color:rgb(229, 228, 230)
+}
+
 
 body{
     background-color: rgb(201, 179, 221);
@@ -29,13 +46,11 @@ body{
 }
 
 .foodpics ul{
-
     display: inline-block;
     list-style-type: none;
     width: 100px;
-    height: 100px;
+    height: 500px;
     padding: 80px;
-
 }
 
 .descriptions{
@@ -43,6 +58,14 @@ body{
     width: 200px;
 }
 
+#button1{
+    text-align: center;
+    align-items: center;
+}
+
+#favFood{
+    text-align: center;
+}
 footer{
     background-color: blueviolet;
     border: solid 1px black;
