@@ -1,16 +1,22 @@
 function colorAnswer(){
-    
+
     let userColor = prompt("What's your favorite color?");
     console.log(userColor);
     
     while (userColor == ""){
-        
-        userColor = prompt("Invalid color! Please try again.");
+        userColor = prompt("Enter a valid color!");
     }
 
     document.body.style.backgroundColor = userColor;
 
-    let fix = confirm("Did the color of the background change?")
+    let fix = confirm("Did the color of the background change to what you wanted?");
+        
+    if (fix == true){
+        document.write("Great!");
+    } else {
+        document.write("Try another color!");
+        colorAnswer();
+    }
 };
 
 function foodAnswer() {
