@@ -7,7 +7,14 @@ function colorAnswer(){
         userColor = prompt("Enter a valid color!");
     }
 
-    document.body.style.backgroundColor = userColor;
+    if (userColor == "black" || userColor == "Black"){
+        document.body.style.color="yellow";
+        document.body.style.backgroundColor = userColor;
+    } else {
+        document.body.style.color="black";
+        document.body.style.backgroundColor = userColor;
+    }
+
     };
 
 function foodAnswer() {
