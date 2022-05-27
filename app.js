@@ -59,7 +59,3 @@ function foodButton(){
         foodButton();
     }
 }
-
-function mealButton();{
-    let mealImage = document.getElementById("meals");
-}
